@@ -38,3 +38,25 @@ public class Solution {
         bufferedReader.close();
     }
 }
+
+//Reserve order
+/* int n = 7;
+        int counter=0;
+
+        ArrayList<Integer> bn = new ArrayList<>();
+        while(n>0){
+            int a= n%2;
+            bn.add(a);
+            n=n/2;
+        }
+
+        // System.out.println(bn.size());
+        for (int i=bn.size()-1;i>=0;i--){
+            //System.out.print(bn.get(i));
+            if (bn.get(i)==1){
+                counter++;
+            }else
+                break;
+        }
+        System.out.println(counter);
+*/
